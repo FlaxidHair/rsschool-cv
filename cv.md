@@ -34,3 +34,15 @@ function checkPalindrome(string) {
     return console.log("This is a palindrome)
 }
 ```
+
+## Education
+
+- Belarussian State Technical College ()
+  - Instrument-making Faculty
+- University of Parliamentarism and Entrepreneurship
+  - Business management
+
+## Languages
+
+- Russian - native speaker
+- English - A2-B1
