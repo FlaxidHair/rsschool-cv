@@ -103,3 +103,25 @@ pre {
 .code__information {
     padding:20px 0px 0px 0px;
 }
+.footer{
+    height:100px;
+    width:100%;
+    background-color:#89968f;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 40px;
+}
+.footer__text {
+    display:flex;
+    column-gap:40px;
+}
+
+.footer__school-img {
+    width:80px;
+}
+.container-inner {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
