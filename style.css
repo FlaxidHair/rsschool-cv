@@ -37,3 +37,69 @@ a {
 .navigation__list-item:hover {
     border-bottom:1px solid #535f6b;
 }
+.main {
+    display:flex;
+    flex-flow:column;
+    align-items: center;
+    padding:0px 40px;
+}
+.main__photo-name {
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+    border-bottom:5px solid #89968f;
+    align-items: center;
+    padding-bottom:50px;
+    margin-bottom: 50px;
+}
+.photo-name__photo-img {
+    width:300px;
+    height:300px;
+    border-radius:50%;
+}
+.photo-name__name {
+    display:flex;
+    flex-flow:column;
+    row-gap:25px;
+    text-align: center;
+}
+.photo-name__name-title {
+    font-size: 56px;
+}
+.photo-name__name-subtitle {
+    font-size:22px;
+}
+.main__information {
+    display:grid;
+    grid-template-columns: 500px 500px;
+    column-gap:50px;
+    row-gap:50px;
+    margin-bottom:50px;
+}
+.title {
+    font-size: 32px;
+    
+}
+.information {
+    width:500px;
+    height:100%;
+    display:flex;
+    flex-flow: column;
+    padding:20px 0px 0px 20px;
+}
+pre {
+    border:1px solid;
+    padding:10px 0px 0px 10px;   
+}
+.list {
+    display:flex;
+    flex-flow:column;
+    list-style-type:square;
+    row-gap:7px;
+}
+.aboutme__information {
+    padding:20px 0px 0px 0px;
+}
+.code__information {
+    padding:20px 0px 0px 0px;
+}
