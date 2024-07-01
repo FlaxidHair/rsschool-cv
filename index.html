@@ -42,6 +42,49 @@
                     </ul>
                 </div>
             </section>
+            <section class="main__aboutme aboutme block" id="aboutme">
+                <h2 class="aboutme__title title">
+                    ABOUT ME
+                </h2>
+                <div class="aboutme__information information">
+                    <p class="aboutme__information-text">
+                        I am purposeful, sociable with developed soft skills. 
+                        My goal is to become a front-end developer by the end of next spring, at the end of spring,
+                        I will receive a higher education and will be able to apply for the coveted vacancy!
+                    </p>
+                </div>
+            </section>
+            <section class="main__skills skills block" id="skills">
+                <h2 class="skills__title title">
+                    SKILLS
+                </h2>
+                <div class="skills__information information">
+                    <ul class="skills__information-list list">
+                        <li class="skills__information-list-item list-item">Web-development: HTML5, CSS3, JavaScript</li>
+                        <li class="skills__information-list-item list-item">Version control: GIT,Github</li>
+                        <li class="skills__information-list-item list-item">Project builders: Webpack</li>
+                        <li class="skills__information-list-item list-item">Graphics: Figma,Photoshop</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main__code code block" id="code">
+                <h2 class="code__title title">
+                    CODE EXAMPLE
+                </h2>
+                <div class="code__information information">
+                    <pre><code class="code__incormation-code">function checkPalindrome(string) { 
+    string = string.toLowerCase().replace(/[^а-яa-z1-9]/gi,'');
+    const lastIndex = string.length - 1;
+    for(let i = 0; i &lt; string.length/2;i++){
+        if(string[i]!== string[lastIndex - i]){
+            return console.log("This is not a palindrome")
+        }
+    }
+    return console.log("This is a palindrome)
+}
+                    </code></pre>
+                </div>
+            </section>
         </div>
     </main>
 </body>
